@@ -1,0 +1,76 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% load static %}
+{% block page-wrapper %}
+    <div class="page-wrapper">
+        <div class="hero">
+            <form method="GET" action="{% url 'search' %}">
+                <h1>{% trans "Search IP Adress and Host Name Details" %}</h1>
+                <div class="row">
+                    <div class="col-2"></div>
+                    <div  class="d-flex group-form col-7">
+                        {% if search_detial != '' %}
+                            <input type="text" class="form-control" placeholder="{% trans 'IP Adress/Host Name' %}" name="search" value="{{search_detial}}">
+                        {% else %}
+                            <input type="text" class="form-control" placeholder="{% trans 'IP Adress/Host Name' %}" name="search">
+                        {% endif %}
+                        <button type="submit" class="">{% trans "Search" %}</button>
+                    </div>
+                </div>
+            </form>
+            {% block search_result %}
+                               
+            {% endblock %}
+        </div>
+        <div class="container">
+            <div class="row">
+                <main class="col-8 mian-contents">
+                    <article id="why_tis_website">
+                        <h1>{% trans "Why use this website?" %}</h1>
+                        <p>{% trans "You can do many thing in this website as your target" %}</p>
+                        <p>{% trans "1. Security: This websites help you locate and identify the IP addresses of individuals or entities that may be trying to hack your system or steal your personal information." %}<br>
+
+                            {%trans "2. Marketing: This websites can help online marketers and businesses track the geographical location of their visitors and customers, which can help them tailor their marketing campaigns and promotional offers accordingly." %}<br>
+                            
+                            {%trans "3. Website Optimization: Can provide valuable insights into visitor behavior, which can help website owners optimize their website for better user experience and increased engagement." %}<br>
+                            
+                            {%trans "4. Monitoring Online Activity: Can help you keep track of the online activity of your children, employees, or partners, which can help you identify any suspicious or unauthorized activity." %}" 
+                            
+                            {%trans "Overall, using tracking IP websites can provide valuable information regarding online activity and help improve security, marketing, and website optimization." %}</p>
+                    </article>
+                    <article id="search_dt">
+                        <h1>{% trans "The information you can see when you search." %}</h1>
+                        <p>{% trans "The resault when you are shearched by using host name or IP Address" %}</p>
+                        <ul>
+                            <li>{% trans "Ip Address" %}</li>
+                            <li>{% trans "Local Host Name" %}</li>
+                            <li>{% trans "Region of the country" %}</li>
+                            <li>{% trans "Coutry Name" %}</li>
+                            <li>{% trans "Country Code" %}</li>
+                            <li>{% trans "City" %}</li>
+                            <li>{% trans "Internet Service Provider" %}</li>
+                            <li>{% trans "Organizaton of the internet service" %}</li>
+                            <li>{% trans "Latitude" %}</li>
+                            <li>{% trans "Longitude" %}</li>
+                            <li>{% trans "Location as Map" %}</li>
+                        </ul>
+                        
+                    </article>
+                    <article id="ip_address">
+                        <h1>{% trans "What is an IP-Address" %}</h1>
+                        <p>{% trans "An IP address (Internet Protocol address) is a numerical label assigned to each device connected to a computer network that uses the Internet Protocol for communication. It serves two main purposes: host or network interface identification and location addressing. IP addresses come in two versions: IPv4 (e.g., 192.168.1.1) and IPv6, which is designed to address the exhaustion of IPv4 addresses." %}</p>
+                    </article>
+                </main>
+                <aside class="col-4 text-end">
+                    <h2>{% trans "Quik Access" %}</h2>
+                    <ul>
+                        <li><a href="#why_tis_website">{% trans "why use this website" %}</a></li>
+                        <li><a href="#search_dt">{% trans "Search Detials" %}</a></li>
+                        <li><a href="#ip_address">{% trans "What is IP-Adress" %}</a></li>
+                    </ul>
+                </aside>
+
+            </div>
+        </div>
+    </div>
+{% endblock %}

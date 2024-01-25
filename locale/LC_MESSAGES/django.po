@@ -1,0 +1,363 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-24 11:23+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .\template\about.html:8
+msgid "Profile"
+msgstr "ໂປໄຟ"
+
+#: .\template\about.html:13
+msgid "Name: Done Yang"
+msgstr "ຊື່: ດອນ ຢ່າງ"
+
+#: .\template\about.html:14
+msgid "I am a person who plan and create this project"
+msgstr "ຂ້ອຍເປັນຜູ້ທີ່ຄິດຄົ້ນຄວ້າ ແລະ ວາງແຜນທີ່ຈະສ້າງໂປເຈັກນີ້"
+
+#: .\template\about.html:25
+msgid "Name: PoukKie"
+msgstr "ຊື່: ປຸກກີ້"
+
+#: .\template\about.html:26
+msgid "I am a member that suport and get some idea to create this project"
+msgstr "ຂ້ອຍເປັນສະມາຊິກຄົນໜື່ງຂອງໂປເຈັກນີ້ ເປັນທີ່ປຶກສາ ແລະ ແບ່ງປັນໄອເດຍບາງຢ່າງເພື່ອທີ່ຈະສ້າງໂປເຈັກນີ້"
+
+#: .\template\about.html:37
+msgid "Name: Toimanee"
+msgstr "ຊື່: ຕ້ອຍມະນີ"
+
+#: .\template\about.html:38
+msgid ""
+"I am a part of this project who help to check and review with the members"
+msgstr "ຂ້ອຍເປັນສະມາຊິກຜູ້ໜື່ງທີ່ຊ່ວຍກວດສອບ ແລະ ແຊບາງໄອເດຍໃນການສ້າງໂປເຈັກນີ້"
+
+#: .\template\about.html:50
+msgid "Profile of This Website"
+msgstr "ໂປໄຟຂອງໂປເຈັກນີ້"
+
+#: .\template\about.html:51
+msgid ""
+"This website we pupose to use many tool to combine together to get a strong "
+"website. It contian API, Bootstrap Webframe, Chat GPT"
+msgstr ""
+"ເວັບໄຊນີ້ແມ່ນພວກເຮົາສຸມໃສ່ການນຳໃຊ້ອຸປະກອນທີ່ຫຼາກຫຼາຍມາໃຊ້ຮ່ວມກັນເພື່ອຈະໄດ້ເວັບທີ່ມີປະສິດທິພາບສູງ ໂດຍມີ: "
+"ການດືງ API ມານຳໃຊ້, Bootstrap ແລະ Chat GPT ເພື່ອຊ່ວຍສ້າງແນວຄິດຕ່າງໆ ແລະ "
+"ແກ້ໄຂບັນຫາຫຼາຍຢ່າງໃນໂປເຈັກນີ້"
+
+#: .\template\about.html:54
+msgid "Members"
+msgstr "ສະມາຊິກ"
+
+#: .\template\about.html:55
+msgid "Mr. Done Yang"
+msgstr "ທ. ດອນ ຢ່າງ"
+
+#: .\template\about.html:56
+msgid "Mss. PoukKie"
+msgstr "ນ. ປຸກກີ້"
+
+#: .\template\about.html:57
+msgid "Mss. Toimanee"
+msgstr "ນ. ຕ້ອຍມະນີ"
+
+#: .\template\about.html:60
+msgid "Referances"
+msgstr "ທີ່ອ້າງອີງ"
+
+#: .\template\about.html:62
+msgid "Map API (leafletjs.com)"
+msgstr "API ແຜນທີ່ (leafletjs.com)"
+
+#: .\template\about.html:63
+msgid "Searching IP Address API"
+msgstr "API ຄົ້ນຫາລາຍລະອຽດຂອງທີ່ຢູ່ IP"
+
+#: .\template\about.html:64
+msgid "Chat GPT"
+msgstr "Chat GPT"
+
+#: .\template\about.html:65
+msgid "Bootstrap 5"
+msgstr "Bootstrap 5"
+
+#: .\template\base.html:33
+msgid "Home"
+msgstr "ໜ້າຫຼັກ"
+
+#: .\template\base.html:36
+msgid "Blogs"
+msgstr "ບົດຄວາມ"
+
+#: .\template\base.html:39
+msgid "Why this website"
+msgstr "ເວັບໄຊ້ນີ້ໃຊ້ໄວ້ເຮັດຫຍັງ"
+
+#: .\template\base.html:40
+msgid "Search detials"
+msgstr "ລາຍລະອຽດຂອງການຄົ້ນຫາ"
+
+#: .\template\base.html:41 .\template\index.html:60
+msgid "What is an IP-Address"
+msgstr "ທີ່ຢູ່ IP ແມ່ນຫຍັງ"
+
+#: .\template\base.html:44
+msgid "About"
+msgstr "ກ່ຽວກັບເຮົາ"
+
+#: .\template\base.html:59 .\tracking_ip\settings.py:195
+msgid "English"
+msgstr "ອັງກິດ"
+
+#: .\template\base.html:60
+msgid "Laos"
+msgstr "ລາວ"
+
+#: .\template\index.html:8
+msgid "Search IP Adress and Host Name Details"
+msgstr "ຄົ້ນຫາລາຍລະອຽດຂອງທີ່ຢູ່ IP ແລະ ຊື່ Host"
+
+#: .\template\index.html:13 .\template\index.html:15
+msgid "IP Adress/Host Name"
+msgstr "ທີ່ຢູ່ IP/ຊື່ Host"
+
+#: .\template\index.html:17
+msgid "Search"
+msgstr "ຄົ້ນຫາ"
+
+#: .\template\index.html:29
+msgid "Why use this website?"
+msgstr "ເປັນຫຍັງຈຶ່ງໃຊ້ເວັບໃຊ້ນີ້"
+
+#: .\template\index.html:30
+msgid "You can do many thing in this website as your target"
+msgstr "ສາມາດໃຊ້ເວັບໄຊ້ນີ້ເພື່ອຫາລາຍລະອຽດຂອງທີ່ຢູ່ IP ເພື່ອນຳໄປໃຊ້ໃນການສຶກສາ ແລະ ສີ່ງທີ່ທ່ານຕ້ອງການ"
+
+#: .\template\index.html:31
+msgid ""
+"1. Security: This websites help you locate and identify the IP addresses of "
+"individuals or entities that may be trying to hack your system or steal your "
+"personal information."
+msgstr ""
+"1. ຄວາມປອດໄພ: ເວັບໄຊນີ້ສາມາດຊ່ວຍທ່ານລະບຸ ແລະ ຕິດຕາມທີ່ຢູ່IP ສ່ວນຕົວໄດ້ຫຼື "
+"ຕິດຕາມທີ່ຢູ່IPຂອງຜູ້ທີ່ພະຍາຍາມທີ່ຈະແຮັກລະບົບຂອງທ່ານ ແລະ ຜູ້ທີ່ມາລັກຂໍ້ມູນຂອງທ່ານ"
+
+#: .\template\index.html:33
+msgid ""
+"2. Marketing: This websites can help online marketers and businesses track "
+"the geographical location of their visitors and customers, which can help "
+"them tailor their marketing campaigns and promotional offers accordingly."
+msgstr ""
+"2. ການຕະຫຼາດ: ເວັບໄຊທ໌ນີ້ສາມາດຊ່ວຍໃຫ້ນັກການລະຕະຫຼາດອອນໄລນ໌ ແລະ ທຸລະກິດເພື່ອຕິດຕາມ "
+"ສະຖານທີ່ຕັ້ງພູມສາດຂອງຜູີ່ທີ່ເຂົ້າເຖີງ ແລະ ລູກຄ້າຂອງພວກເຂົາ, "
+"ເຊິ່ງສາມາດຊ່ວຍພວກເຂົາປັບແຕ່ງການໂຄສະນາການຕະຫຼາດຂອງພວກເຂົາ ແລະ ສົ່ງເສີມຕາມຄວາມເຫມາະສົມ."
+
+#: .\template\index.html:35
+msgid ""
+"3. Website Optimization: Can provide valuable insights into visitor "
+"behavior, which can help website owners optimize their website for better "
+"user experience and increased engagement."
+msgstr ""
+"3. ການເພີ່ມປະສິດທິພາບເວັບໄຊທ໌: ສາມາດໃຫ້ຄວາມເຂົ້າໃຈທີ່ມີຄຸນຄ່າແກ່ຜູ້ເຂົ້າຊົມພຶດຕິກໍາ, "
+"ເຊິ່ງສາມາດຊ່ວຍເຈົ້າຂອງເວັບໄຊທ໌ປັບປຸງເວັບໄຊທ໌ຂອງພວກເຂົາໃຫ້ດີຂຶ້ນ.ປະສົບການຂອງຜູ້ໃຊ້ ແລະ "
+"ການມີສ່ວນຮ່ວມເພີ່ມຂຶ້ນ."
+
+#: .\template\index.html:37
+msgid ""
+"4. Monitoring Online Activity: Can help you keep track of the online "
+"activity of your children, employees, or partners, which can help you "
+"identify any suspicious or unauthorized activity."
+msgstr ""
+"4. ການ​ຕິດ​ຕາມ​ກິດ​ຈະ​ກໍາ​ອອນ​ໄລ​ນ​໌​: ສາ​ມາດ​ຊ່ວຍ​ໃຫ້​ທ່ານ​ຕິດ​ຕາມ​ກິດຈະກໍາ​ອອນ​ໄລ​ນ​໌ຂອງລູກຂອງເຈົ້າ, ພະນັກງານ "
+"ຫຼື ຄູ່ຮ່ວມງານ, ເຊິ່ງສາມາດຊ່ວຍກໍານົດກິດຈະກໍາທີ່ຫນ້າສົງໄສ ຫຼື ບໍ່ໄດ້ຮັບອະນຸຍາດໄດ້ວ່າຢູ່ໃສ."
+
+#: .\template\index.html:39
+msgid ""
+"Overall, using tracking IP websites can provide valuable information "
+"regarding online activity and help improve security, marketing, and website "
+"optimization."
+msgstr ""
+"ໂດຍລວມ, ການນໍາໃຊ້ເວັບໄຊທ໌ການຕິດຕາມ IP ສາມາດສະຫນອງຂໍ້ມູນທີ່ມີຄຸນຄ່າກ່ຽວກັບກິດຈະກໍາອອນໄລນ໌ ແລະ "
+"ຊ່ວຍປັບປຸງຄວາມປອດໄພ, ການຕະຫຼາດ ແລະ ການເພີ່ມປະສິດທິພາບເວັບໄຊທ໌."
+
+#: .\template\index.html:42
+msgid "The information you can see when you search."
+msgstr "ຂໍ້ມູນທີ່ທ່ານເຫັນເມື່ອທີ່ມີການຄົ້ນຫາ"
+
+#: .\template\index.html:43
+msgid "The resault when you are shearched by using host name or IP Address"
+msgstr "ການສະແດງຜົນເມື່ອທີ່ທຳການຄົ້ນຫາໂດຍຝລໃຊ້ທີ່ຢູ່ IP ຫຼື ຄົ້ນດ້ວຍຊື່ Host"
+
+#: .\template\index.html:45
+msgid "Ip Address"
+msgstr "ທີ່ຢູ່ IP"
+
+#: .\template\index.html:46
+msgid "Local Host Name"
+msgstr "ຊື່ Host"
+
+#: .\template\index.html:47
+msgid "Region of the country"
+msgstr "ພາກ​ພື້ນ"
+
+#: .\template\index.html:48
+msgid "Coutry Name"
+msgstr "ຊື່ປະເທດ"
+
+#: .\template\index.html:49
+msgid "Country Code"
+msgstr "ລະຫັດປະເທດ"
+
+#: .\template\index.html:50
+msgid "City"
+msgstr "ຕົວເມືອງ"
+
+#: .\template\index.html:51
+msgid "Internet Service Provider"
+msgstr "ຜູ້ໃຫ້ບໍລິການອີນເຕີເນັດ"
+
+#: .\template\index.html:52
+msgid "Organizaton of the internet service"
+msgstr "ອົງການຈົດຕັ້ງທີ່ໃຫ້ບໍລິການອີນເຕີເນັດ"
+
+#: .\template\index.html:53
+msgid "Latitude"
+msgstr "ເສັ້ນຂະໜານ"
+
+#: .\template\index.html:54
+msgid "Longitude"
+msgstr "ເສັ້ນແວງ"
+
+#: .\template\index.html:55
+msgid "Location as Map"
+msgstr "ແຜນທີ່"
+
+#: .\template\index.html:61
+msgid ""
+"An IP address (Internet Protocol address) is a numerical label assigned to "
+"each device connected to a computer network that uses the Internet Protocol "
+"for communication. It serves two main purposes: host or network interface "
+"identification and location addressing. IP addresses come in two versions: "
+"IPv4 (e.g., 192.168.1.1) and IPv6, which is designed to address the "
+"exhaustion of IPv4 addresses."
+msgstr ""
+"ທີ່ຢູ່IP (Internet Protocol address) "
+"ແມ່ນຕົວເລກທີ່ເປັນປ້າຍກຳກັດທີ່ຈະນຳໄປມອບໝາຍໄຫ້ແຕ່ລະອຸປະກອນທີ່ມີການເຊື່ອມຕໍ່ກັບInternet Protocol "
+"ເພື່ອການສື່ສານກັນ. ມັນໄຫ້ບໍລິການຫຼັກໆສອງເປົ້າໝາຍເຊັ່ນ: host ຫຼື "
+"ການລະບຸຕົວຕົນຂອງການໂຕ້ຕອບທາງເຄທອຂ່າຍແລະ ການລະບຸຕຳແໜ່ງ. ທີ່ຢູ່IP ມາໃນ2ເວີເຊີນເຊັ່ນ: IPv4 (e."
+"g., 192.168.1.1) ແລະ IPv6, ທີ່ຖືຫອອກແບບມາເພື່ອລະບຸຄວາມອ່ອນເພຍຂອງ IPv4."
+
+#: .\template\index.html:65
+msgid "Quik Access"
+msgstr "ທາງລັກການເຂົ້າເຖີງ"
+
+#: .\template\index.html:67
+#, fuzzy
+#| msgid "Why use this website?"
+msgid "why use this website"
+msgstr "ເປັນຫຍັງຈຶ່ງໃຊ້ເວັບໃຊ້ນີ້"
+
+#: .\template\index.html:68
+msgid "Search Detials"
+msgstr "ລາຍລະອຽດໃນການຄົ້ນຫາ"
+
+#: .\template\index.html:69
+msgid "What is IP-Adress"
+msgstr "ທີ່ຢູ່IP ແມ່ນຫຍັງ?"
+
+#: .\template\search_result.html:19
+msgid "Search Results"
+msgstr "ຜົນຮັບຂອງການຄົົ້ນຫາ"
+
+#: .\template\search_result.html:22
+msgid "IP Address: "
+msgstr "ທີ່ຢູ່IP: "
+
+#: .\template\search_result.html:23
+msgid "Region Name: "
+msgstr "ຊື່ພາກພື້ນ: "
+
+#: .\template\search_result.html:24
+msgid "Region: "
+msgstr "ພາກ​ພື້ນ: "
+
+#: .\template\search_result.html:25
+msgid "Country: "
+msgstr "ປະເທດ: "
+
+#: .\template\search_result.html:26
+msgid "Country Code: "
+msgstr "ລະຫັດປະເທດ: "
+
+#: .\template\search_result.html:29
+msgid "City: "
+msgstr "ຕົວເມືອງ: "
+
+#: .\template\search_result.html:30
+msgid "Latitude: "
+msgstr "ເສັ້ນຂະໜານ: "
+
+#: .\template\search_result.html:31
+msgid "Longitude: "
+msgstr "ເສັ້ນແວງ: "
+
+#: .\template\search_result.html:32
+msgid "Internet Service Provider: "
+msgstr "ຜູ້ໃຫ້ບໍລິການອີນເຕີເນັດ: "
+
+#: .\template\search_result.html:33
+msgid "Organization: "
+msgstr "ອົງການຈົດຕັ້ງທີ່ໃຫ້ບໍລິການອີນເຕີເນັດ: "
+
+#: .\template\search_result.html:39
+msgid "Map"
+msgstr "ແຜນທີ່"
+
+#: .\tracking_ip\settings.py:196
+msgid "Lao"
+msgstr "ລາວ"
+
+#~ msgid "What is an IP-Lookup"
+#~ msgstr "IP-Lookup ແມ່ນຫຍັງ"
+
+#, fuzzy
+#~| msgid "What is an IP-Lookup"
+#~ msgid "What is an IP Lookup"
+#~ msgstr "IP-Lookup ແມ່ນຫຍັງ"
+
+
+
+#, fuzzy
+#~| msgid "What is an IP-Lookup"
+#~ msgid "What is IP Lookup"
+#~ msgstr "IP Lookup ແມ່ນຫຍັງ"
+
+#, fuzzy
+#~| msgid ""
+#~ msgid ""
+#~ "An IP Lookup is defined as finding the geographical location (or related "
+#~ "information like Internet Service Provider, timezone etc.) of an IP "
+#~ "address. The lookup can be done either with our API or website. For "
+#~ "example, with a plan of 60,000 IP Lookups / month, you can find the "
+#~ "location of 60,000 IP addresses in a month. Each conversion of IP address "
+#~ "to location is counted as a lookup (repeat queries of the same IP address "
+#~ "counts as a separate lookup)."
+#~ msgstr ""
+#~ "IP Lookup ເປັນການລະບຸສະຖານທີ່ພຸມສັນຖານ (ຫຼື ສະແດງຂໍ້ມູນທີ່ກ່ຽວຂ້ອງເຊັ່ນ: ສະກຸນເງີນ, "
+#~ "ເຂດເວລາ, ...) ຂອງທີ່ຢູ່ IP ການຄົ້ນຫາສາມາດນີ້ໂດຍຜ່ານ API ຫຼື ເວັບໄຊ ຕົວຢ່າງ: "
+#~ "ການໃຫ້ບໍລິການການຄົ້ນຫາ 60,000/ເດືອນ ແມ່ນທ່ານສາມາດຄົ້ນຫາ ທີ່ຢູ່IP ໄດ້ 60 000 "
+#~ "ພາຍໃນໜື່ງເດືອນໄດ້ເຊີ່ງທຸກໆການປະມວນຜົນຂອງການຄົ້ນຫາແມ່ນຈະຖືກນັບຊ້ຳໆກັນໄປໃນແຕ່ລະເທື່ອ"

@@ -1,0 +1,71 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% load static %}
+{% block page-wrapper %}
+  <div class="page-wraper"> 
+    <div class="container">
+      <div class="col m-auto">
+        <h3 class="text-center">{% trans "Profile" %}</h3>
+        <div class="row d-flex justify-content-around">
+          <div class="card col-4 " style="width: 18rem;">
+            <div class="card-body pro-card m-3 text-center" >
+              <div class="img"><img src="{%static 'img/done.jpg' %}" alt="" width="100%"></div>
+              <h6 class="mt-2">{% trans "Name: Done Yang" %}</h6>
+              <p>{% trans "I am a person who plan and create this project" %}</p>
+              <div class="col text-center icon d-flex justify-content-evenly">
+                <a href="#"><i class="bi bi-facebook "></i></a>
+                <a href="#"><i class="bi bi-instagram "></i></a>
+                <a href="#"><i class="bi bi-tiktok "></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="card col-4 " style="width: 18rem;">
+            <div class="card-body pro-card m-3 text-center" >
+              <div class="img"><img src="{%static 'img/kie.jpg' %}" alt="" width="100%"></div>
+              <h6 class="mt-2">{% trans "Name: PoukKie" %}</h6>
+              <p>{% trans "I am a member that suport and get some idea to create this project" %}</p>
+              <div class="col text-center icon d-flex justify-content-evenly">
+                <a href="#"><i class="bi bi-facebook "></i></a>
+                <a href="#"><i class="bi bi-instagram "></i></a>
+                <a href="#"><i class="bi bi-tiktok "></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="card col-4 " style="width: 18rem;">
+            <div class="card-body pro-card m-3 text-center" >
+              <div class="img"><img src="{%static 'img/toi.jpg' %}" alt="" width="100%"></div>
+              <h6 class="mt-2">{% trans "Name: Toimanee" %}</h6>
+              <p>{% trans "I am a part of this project who help to check and review with the members" %}</p>
+              <div class="col text-center icon d-flex justify-content-evenly">
+                <a href="#"><i class="bi bi-facebook "></i></a>
+                <a href="#"><i class="bi bi-instagram "></i></a>
+                <a href="#"><i class="bi bi-tiktok "></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-4">
+          <h4>{% trans "Profile of This Website" %}</h4>
+          <p>{% trans "This website we pupose to use many tool to combine together to get a strong website. It contian API, Bootstrap Webframe, Chat GPT" %}</p>
+        </div>
+        <div class="col-4">
+          <h4>{% trans "Members" %}</h4>
+          <p>{% trans "Mr. Done Yang" %}</p>
+          <p>{% trans "Mss. PoukKie" %}</p>
+          <P>{% trans "Mss. Toimanee" %}</P>
+        </div>
+        <div class="col-4">
+          <h4>{% trans "Referances" %}</h4>
+          <div class="row">
+            <a href="https://leafletjs.com/">{% trans "Map API (leafletjs.com)" %}</a>
+            <a href="https://ip-api.com/">{% trans "Searching IP Address API" %}</a>
+            <a href="https://openai.com/">{% trans "Chat GPT" %}</a>
+            <a href="https://getbootstrap.com/">{% trans "Bootstrap 5" %}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}
