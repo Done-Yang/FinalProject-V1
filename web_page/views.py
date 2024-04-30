@@ -1,5 +1,4 @@
 from django.shortcuts import render, redirect
-import socket
 # from django.contrib import messages
 import requests
 
