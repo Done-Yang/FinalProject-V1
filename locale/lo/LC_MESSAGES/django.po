@@ -263,7 +263,7 @@ msgstr ""
 
 #: .\template\index.html:65
 msgid "Quik Access"
-msgstr "ທາງລັກການເຂົ້າເຖີງ"
+msgstr "ທາງລັດການເຂົ້າເຖີງ"
 
 #: .\template\index.html:67
 #, fuzzy
